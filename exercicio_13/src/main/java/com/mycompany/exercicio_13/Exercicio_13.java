@@ -17,8 +17,8 @@ public class Exercicio_13 {
         System.out.println("nome: " + funcionario.getNome());
         System.out.println("id: " + funcionario.getId());
         System.out.println("salario: R$ " + funcionario.getSalario());
-        System.out.println("setor: " + funcionario.getSetor());
-        System.out.println("sexo: " + funcionario.getSexo());
+        System.out.println("setor: " + funcionario.getSetor().getFuncao());
+        System.out.println("sexo: " + funcionario.getSexo().getTexto());
         System.out.println("idade: " + funcionario.getIdade());
     }
 }

@@ -9,8 +9,20 @@ package com.mycompany.exercicio_13;
  * @author aluno.den
  */
 public enum Setores {
-    FINANCEIRO,
-    RECURSOS_HUMANOS,
-    VENDAS,
-    MARKETING;
+    FINANCEIRO("Financeiro"),
+    RECURSOS_HUMANOS("Recursos Humanos"),
+    VENDAS("Vendas"),
+    MARKETING("Marketing");
+    
+    private String funcao;
+
+    private Setores(String funcao) {
+        this.funcao = funcao;
+    }
+
+    public String getFuncao() {
+        return funcao;
+    }
+    
+    
 }
