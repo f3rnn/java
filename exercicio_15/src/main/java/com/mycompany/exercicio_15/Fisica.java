@@ -46,7 +46,7 @@ public class Fisica extends Pessoas {
 
     @Override
     public String toString() {
-        return "cpf: " + cpf + "\nrg: " + rg + "\ndata de nascimento: " + dataNascimento;
+        return "\nDados da Pessoa Fisica:\n" + "nome: " + super.nome + "\ntelefone: " + super.telefone + "\nCPF: " + cpf + "\nRG: " + rg + "\ndata de nascimento: " + dataNascimento;
     }
     
     

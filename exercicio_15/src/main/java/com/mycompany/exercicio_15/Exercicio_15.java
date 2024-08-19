@@ -15,9 +15,7 @@ public class Exercicio_15 {
         Juridica pessoaJuridica = new Juridica("00.000.000/0001-00", "0000000000", "celso portioli", "71 9 9999-9998");
         
         
-        System.out.println("nome: " + pessoaFisica.getNome());
-        System.out.println("telefone: " + pessoaFisica.getTelefone());
-        System.out.println("\ndados pessoa fisica:\n" + pessoaFisica);
-        System.out.println("\ndados pessoa juridica:\n" + pessoaJuridica);
+        System.out.println(pessoaFisica);
+        System.out.println(pessoaJuridica);
     }
 }

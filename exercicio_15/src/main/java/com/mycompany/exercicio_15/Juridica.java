@@ -36,7 +36,7 @@ public class Juridica extends Pessoas {
 
     @Override
     public String toString() {
-        return "cnpj: " + cnpj + "\ninscricao estadual:" + inscricaoEstadual;
+        return  "\nDados da Pessoa Juridica:\n" + "nome: " + super.nome+ "\ntelefone: " + super.telefone + "\nCNPJ: " + cnpj + "\ninscricao estadual:" + inscricaoEstadual;
     }
     
     
