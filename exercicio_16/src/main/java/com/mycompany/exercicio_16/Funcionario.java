@@ -52,6 +52,11 @@ public abstract class Funcionario {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
+    @Override
+    public String toString() {
+        return "\nnome: " + nome + "\ncpf: " + cpf + "\nrg: " + rg + "\nsalario: R$" + salario;
+    }
     
     
 }

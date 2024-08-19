@@ -26,7 +26,7 @@ public class Motoboy extends Funcionario{
 
     @Override
     public String toString() {
-        return "\nDados do Motoboy:\n" + "nome: " + super.nome + "\nCPF: " + super.cpf + "\nRG: " + super.rg + "\nsalario: R$" + super.salario + "\ncnh: " + cnh;
+        return "\nDados do Motoboy:" + super.toString() + "\ncnh: " + cnh;
     }
     
     

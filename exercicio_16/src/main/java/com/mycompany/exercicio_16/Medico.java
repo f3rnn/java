@@ -26,7 +26,7 @@ public class Medico extends Funcionario {
 
     @Override
     public String toString() {
-        return "\nDados do Medico:\n" + "nome: " + super.nome + "\nCPF: " + super.cpf + "\nRG: "+ super.rg + "\nsalario: R$" + super.salario + "\ncrm: " + crm;
+        return "\nDados do Medico:" + super.toString() + "\ncrm: " + crm;
     }
     
     
