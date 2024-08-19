@@ -9,10 +9,10 @@ package com.mycompany.exercicio_17;
  * @author aluno.den
  */
 public abstract class Pessoa {
-    private int id;
-    private String nome;
-    private String telefone;
-    private Endereco endereco;
+    protected int id;
+    protected String nome;
+    protected String telefone;
+    protected Endereco endereco;
 
     public Pessoa(int id, String nome, String telefone, Endereco endereco) {
         this.id = id;
