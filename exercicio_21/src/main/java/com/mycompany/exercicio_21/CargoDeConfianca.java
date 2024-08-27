@@ -26,7 +26,7 @@ public abstract class CargoDeConfianca extends Funcionario{
 
     @Override
     public String toString() {
-        return "bonificacao: " + bonificacao;
+        return super.toString() + "\nbonificacao: " + bonificacao.getValor();
     }
     
     

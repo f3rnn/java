@@ -31,7 +31,7 @@ public class Motorista extends Funcionario{
 
     @Override
     public String toString() {
-        return "=== Motorista ===\n"+ "carteira de habilitacao: " + carteiraDeHabilitacao + "\n" +super.toString()+"\nsalario final: " + this.getSalarioFinal() ;
+        return "\n=== Motorista ===\n"+ "carteira de habilitacao: " + carteiraDeHabilitacao + "\n" +super.toString()+"\nsalario final: " + this.getSalarioFinal() ;
     }
     
     

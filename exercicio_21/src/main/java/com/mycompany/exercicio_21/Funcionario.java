@@ -97,7 +97,7 @@ public abstract class Funcionario{
 
     @Override
     public String toString() {
-        return "dados do funcionario:\n" + "nome: " + nome + "\nCPF: " + cpf + "\nRG: " + rg + "\nendereco: " + endereco + "\nsetor: " + setor.getNome() + "\nsexo: " + sexo.getCaractere() + "\nsalario: " + salario + "\ndata de nascimento: " + dataNascimento;
+        return "nome: " + nome + "\nCPF: " + cpf + "\nRG: " + rg + "\n=== endereco ===" + endereco + "\nsetor: " + setor.getNome() + "\nsexo: " + sexo.getCaractere() + "\nsalario: " + salario + "\ndata de nascimento: " + dataNascimento;
     }
     
     

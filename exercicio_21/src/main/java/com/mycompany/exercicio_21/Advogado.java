@@ -32,7 +32,7 @@ public class Advogado extends Funcionario {
     
     @Override
     public String toString() {
-        return "=== Advogado ===\n" + super.toString()+"\nsalario final: " + this.getSalarioFinal()+ "oab: " + oab;
+        return "\n=== Advogado ===\n" +  "oab: " + oab + super.toString()+"\nsalario final: " + this.getSalarioFinal();
     }
     
 }

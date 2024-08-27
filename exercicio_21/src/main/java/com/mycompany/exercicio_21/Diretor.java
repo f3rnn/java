@@ -43,7 +43,7 @@ public class Diretor extends CargoDeConfianca implements Contratacao{
 
     @Override
     public String toString() {
-        return "=== Diretor ===\n"+ super.toString() + "\npremio: " + PREMIO + "%"+"\nsalario final: "+this.getSalarioFinal();
+        return "\n=== Diretor ===\n"+ super.toString() + "\npremio: " + PREMIO + "%"+"\nsalario final: "+this.getSalarioFinal();
     }
     
     

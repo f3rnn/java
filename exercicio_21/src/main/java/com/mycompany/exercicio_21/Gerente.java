@@ -24,7 +24,7 @@ public class Gerente extends CargoDeConfianca {
     
     @Override
     public String toString(){
-        return "=== Gerente ===\n" + super.toString() + "\nsalario final: " + this.getSalarioFinal();
+        return "\n=== Gerente ===\n" + super.toString() + "\nsalario final: " + this.getSalarioFinal();
     }
     
 }
